@@ -1,7 +1,6 @@
 
 void assign()
- //Assigns variables to text files
-//Instead of delimiting field array with commas, just put separate numbers on its own line
+  //Assigns variables to text files
 {
   qList=loadStrings("Data/MBQList.txt"); 
   catList=loadStrings("Data/MBFieldList.txt");

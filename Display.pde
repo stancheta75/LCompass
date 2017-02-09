@@ -35,10 +35,12 @@ void onOpt() {
   if ((count<qList.length)&&mouseX>70&&mouseX<100&&mouseY>250&&mouseY<280)
   {
     moveOn=true;
+    onO2=true;
   }
 
   //box 1
   if ((count<qList.length)&&mouseX>70&&mouseX<100&&mouseY>140&&mouseY<170) {
     moveOn=true;
+    onO1=true;
   }
 }
